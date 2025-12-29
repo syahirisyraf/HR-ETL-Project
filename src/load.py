@@ -49,7 +49,7 @@ def load_to_supabase(
 
         # Test Connection
         with engine.connect() as conn:
-            result = conn.execute(text("SELCT 1"))
+            result = conn.execute(text("SELECT 1"))
             print("Database Connection SUCCESSFUL")
 
         # Load data
