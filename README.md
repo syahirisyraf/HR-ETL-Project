@@ -368,7 +368,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Your Name** - [LinkedIn](https://www.linkedin.com/in/syahirisyraf/)
+**Syahir Isyraf** - [LinkedIn](https://www.linkedin.com/in/syahirisyraf/)
 
 Project Link: [https://github.com/syahirisyraf/HR-ETL-Project](https://github.com/syahirisyraf)
 
