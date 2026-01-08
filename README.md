@@ -188,8 +188,8 @@ cp .env.example .env
 2. Edit `.env` with your Supabase credentials:
 ```env
 SUPABASE_HOST=aws-0-xx-xxxx-x.pooler.supabase.com
-SUPABASE_PORT=6543
-SUPABASE_DB=postgres
+SUPABASE_PORT=your_port_number_here
+SUPABASE_DB=your_DB_here
 SUPABASE_USER=postgres.xxxxxxxxxxxx
 SUPABASE_PASSWORD=your_password_here
 ```
@@ -250,8 +250,8 @@ python etl_pipeline.py
 1. Open **Power BI Desktop**
 2. Click **Home** → **Get Data** → **PostgreSQL database**
 3. Enter your Supabase connection details:
-   - **Server:** `aws-0-xx-xxxx-x.pooler.supabase.com:6543`
-   - **Database:** `postgres`
+   - **Server:** `aws-0-xx-xxxx-x.pooler.supabase.com:{your_port_number}`
+   - **Database:** `{your_DB}`
 4. Select **Database** authentication and enter credentials
 5. Select the `employees` table and click **Load**
 
@@ -341,11 +341,8 @@ FORMAT(
 
 ## 📸 Screenshots
 
-### ETL Pipeline Output
-![ETL Pipeline](screenshots/etl_output.png)
-
 ### Power BI Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard_screenshot.png)
 
 > **Note:** Add your own screenshots to the `screenshots/` folder
 
@@ -371,9 +368,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Your Name** - [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN)
+**Your Name** - [LinkedIn](https://www.linkedin.com/in/syahirisyraf/)
 
-Project Link: [https://github.com/YOUR_USERNAME/HR-ETL-Project](https://github.com/YOUR_USERNAME/HR-ETL-Project)
+Project Link: [https://github.com/syahirisyraf/HR-ETL-Project](https://github.com/syahirisyraf)
 
 ---
 
